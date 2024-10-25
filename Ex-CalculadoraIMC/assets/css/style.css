@@ -61,3 +61,14 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+.p-resultado, .p-bad{
+  background: green;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+}
+
+.p-bad{
+  background: red;
+}
