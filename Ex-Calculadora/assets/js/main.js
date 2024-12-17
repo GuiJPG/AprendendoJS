@@ -59,6 +59,7 @@ function criaCalculadora() {
 
     btnDisplay(valor) {
       this.display.value += valor;
+      this.display.focus();
     },
   };
 }
